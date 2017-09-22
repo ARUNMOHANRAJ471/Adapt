@@ -1,0 +1,23 @@
+#colSize{
+margin-top: 2%;
+margin-bottom:2%;
+}
+
+#CreditsDimmerContent{
+  font-size: 150%;
+  font-style:italic;
+  font-weight: normal;
+  padding: 2%;
+} 
+
+#CreditsHeaderInCard{
+color:#00a2e0;
+margin-top: 0%;
+}
+#descrip{
+  color:#5D6D7E;
+}
+
+.mailIdCreditsPage{
+text-decoration: no !important;
+}

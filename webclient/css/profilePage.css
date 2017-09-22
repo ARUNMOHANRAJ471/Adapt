@@ -1,0 +1,140 @@
+/*style for team name and score*/
+#twoButtonInProfile{
+  width: 147px;
+  height: 147px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 100px;
+  border:0;
+  margin-bottom: 5%;
+}
+/* Tablet and bigger */
+@media ( min-width: 768px ) {
+    .colPaddingInProfile{
+        margin-top:0%;
+        margin-bottom:0%;
+    }
+}
+
+/*.multiColorInProfile {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}*/
+
+/**
+ * Profile image component
+ */
+.profileHeaderContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+.profileHeaderImage {
+    padding: 10px 0;
+}
+.profileHeaderImage > img.circleImage {
+    width: 60%;
+    height: 60%;
+    border: 2px solid #51D2B7;
+}
+.profile-header {
+    margin-top: 43px;
+}
+.label {
+    background-color: rgb(81, 210, 183);
+    border-radius: 27px;
+}
+/*style for modal*/
+.circleButton {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 30px;
+}
+.circleButtonofteam{
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 30px;
+  float: right;
+}
+.tabButtonProfile {
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 100px;
+  border:0;
+  margin:12%;
+}
+.outline:active:focus,.outline:focus,.outline.active.focus,.outline.active:focus,.outline.focus,.outline.focus:active{
+    outline:none;
+}
+
+/*.profileName{
+  text-align: center !important;
+}
+.mailIdProfile{
+  text-align: center !important;
+}*/
+.alignCenter{
+  text-align: center !important;
+}
+.fontGreen{
+  color: green !important;
+}
+.fontRed{
+  color: red !important;
+}
+.domainScenarioModal{
+  text-align:center !important;
+}
+.currentDetails{
+  text-align:left !important;
+  margin-left: 10%;
+
+}
+.seg{
+  margin-top: :15% !important;
+}
+.removeFooterBorder{
+  border-top: 1px solid white !important;
+}
+
+#description{
+  margin-top: 0% !important;
+  border-color: #F2F2F2;
+}
+
+#segment_vertical{
+  box-shadow: none !important;
+}
+.b1:hover{
+  color: black !important;
+}
+.b1:focus,.b1:active {
+   outline: none !important;
+}
+#CardsCreditsPage{
+  width: 84%;
+  margin-top: 0%;
+  height: 220px;
+  margin-left: 6%;
+}
+#CreditsImage>img{
+  height:200px !important ;
+  width: 400px;
+}

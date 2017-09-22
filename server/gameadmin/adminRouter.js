@@ -1,0 +1,42 @@
+'use strict';
+const logger = require('./../../applogger');
+const router = require('express').Router();
+const {user} = require('../users/userEntity');
+const adminCtrl = require('./adminController');
+router.post('/addNewCategory',adminCtrl.addNewCategory);
+router.post('/updateCategory',adminCtrl.updateCategory);
+router.get('/getAllCategory',adminCtrl.getAllCategory);
+router.post('/viewCategoryDetails',adminCtrl.viewCategoryDetails);
+router.get('/findCategory', adminCtrl.findCategory);
+router.post('/deleteCategory',adminCtrl.deleteCategory);
+router.post('/viewCategoryDetails',adminCtrl.viewCategoryDetails);
+router.get('/getAllThemes',adminCtrl.getAllThemes);
+router.post('/addNewTheme',adminCtrl.addNewTheme);
+router.get('/findCategory', adminCtrl.findCategory);
+router.post('/findDelinkTheme',adminCtrl.findDelinkTheme);
+router.post('/findConceptTheme',adminCtrl.findConceptTheme);
+router.post('/linkTheme',adminCtrl.linkTheme);
+router.post('/delinkTheme',adminCtrl.delinkTheme);
+router.post('/findThemes',adminCtrl.findThemes);
+router.post('/findThemeData',adminCtrl.findThemeData);
+router.post('/deleteTheme',adminCtrl.deleteTheme);
+router.get('/getAllStages',adminCtrl.getAllStages);
+router.post('/addNewStage',adminCtrl.addNewStage);
+router.get('/findTheme', adminCtrl.findTheme);
+router.post('/findThemeStage',adminCtrl.findThemeStage);
+router.post('/linkStage',adminCtrl.linkStage);
+router.post('/findDelinkStage',adminCtrl.findDelinkStage);
+router.post('/delinkStage',adminCtrl.delinkStage);
+router.post('/findStages',adminCtrl.findStages);
+router.post('/findStageData',adminCtrl.findStageData);
+router.post('/deleteStage',adminCtrl.deleteStage);
+router.post('/updateTheme',adminCtrl.updateTheme);
+router.get('/getThemesAll',adminCtrl.getThemesAll);
+router.post('/viewThemeDetails',adminCtrl.viewThemeDetails);
+router.post('/updateStage',adminCtrl.updateStage);
+router.get('/getStagesAll',adminCtrl.getStagesAll);
+router.post('/viewStageDetails',adminCtrl.viewStageDetails);
+
+
+
+module.exports = router;

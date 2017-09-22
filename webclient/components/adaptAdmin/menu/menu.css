@@ -1,0 +1,45 @@
+body{
+  height:'100%';
+}
+#leftmenu
+{
+  height: '100%';
+  font-family: arial !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: arial !important;
+  }
+  p{
+    font-family: arial !important;
+  }
+#segmentleftbar
+{
+  margin-top:0%;
+  padding:0%;
+  height:100%;
+  width: 50%;
+}
+#sidebarcontent
+{
+  background-color:white;
+  z-index: -1;
+  height:100%;
+  width:100%;
+}
+#accordian
+{
+  width:89%;
+  color:black;
+  font-size: small;
+  background-color:#f2f2f2 ;
+}
+.sidebarTop{
+  margin-top: 9% !important;
+}
+#accordionMenu{
+  text-align: left;
+  font-size: small;
+}
+/*#sidebar{
+  z-index: -1;
+}*/

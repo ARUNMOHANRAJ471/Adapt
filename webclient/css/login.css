@@ -1,0 +1,260 @@
+body {
+  /*background: url('../img/display: block;igital.jpg') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  font-family: arial;
+}
+.formwidth {
+  width:18% !important;
+  float: left;
+  background: transparent !important;
+  border: 1px solid white !important;
+  size:14px;
+  font-family: arial;
+}
+.passMargin{
+  margin-left: 10px !important;
+}
+#marginpos{
+  margin-bottom:-20%;
+}
+.formwidth1 {
+  max-width: 15% !important;
+  min-width:15% !important;
+  float: left;
+}
+#inputbox{
+/*-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;*/
+/*width:15% !important;*/
+font-size: 14px;
+font-family: arial;
+margin-left: 5%;
+margin-top:1% !important;
+}
+.donutchart-legend-item-rect{
+  opacity: 1;
+}
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+    font-size: 12px !important;
+    color: rgba(191,191,191,.87);
+}
+.passMargin{
+  margin-left: 10px !important;
+}
+.formAlign {
+  margin-left: 5%;
+  margin-top: -410px !important;
+}
+.ui.search.dropdown>.text {
+    font-size: 12px !important;
+}
+.passLeft{
+  clear: none !important;
+  float: left !important;
+}
+.ui.selection.dropdown .menu>.item {
+  font-size: 12px !important;
+}
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+    pointer-events: all;
+    font-size: 12px !important;
+}
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=url], .ui.form input[type=number]
+{
+  font-size:12px;
+  font-family:arial;
+}
+.ui.form textarea:not([rows]) {
+  font-size:12px;
+  font-family:arial;
+}
+.ui.multiple.dropdown>.label {
+  font-size:12px !important;
+  font-family:arial !important;
+  color: rgba(0,0,0,.87);
+}
+.ui.selection.dropdown .menu>.message {
+    font-size: 12px !important;
+    font-family: arial !important;
+}
+.ui.dropdown>.text {
+  font-size: 12px !important;
+  font-family: arial !important;
+  }
+.inputfield {
+  font-size: 12px !important;
+  font-family: arial !important;
+}
+.ui.red.button{
+  margin: 15px;
+    margin-left: 12%;
+}
+.btnColor {
+  border: none !important;
+  background-color: transparent !important;
+  line-height: 1.2142em !important;
+  /*width: 15% !important;*/
+  /*margin-left: -18% !important;*/
+  margin-top: 17px !important;
+  padding: 6px !important;
+  background: transparent;
+  margin-top: 25px !important;
+    margin-left: 5%;
+
+  /*height: 30px !important;*/
+  /*padding: 4px 20px 6px 20px !important;*/
+  border-style: solid !important;
+  border-width: 1px !important;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+  font-family: arial;
+}
+.loginTitle{
+  color: white !important;
+  font-family: arial !important;
+}
+.alert-danger{
+  margin-bottom: 0px;
+}
+.labelLogin{
+  color: white!important;
+  font-size: small !important;
+  font-family: arial;
+  padding-top: 0.5%;
+  margin-top: 3.5%;
+}
+.rightAdd{
+  background: white !important;
+  overflow-y: scroll !important;
+  height: 600px !important;
+}
+.ui.container.containerArrange{
+      margin-left: 14% !important;
+}
+.cardComp{
+  border: 2px solid black !important;
+  margin: 2px;
+}
+.dropContent{
+  text-align: center !important;
+}
+.progress{
+  /*height: 17px !important;*/
+  /*color: #21BA45 !important;*/
+}
+.ui.progress .bar>.progress {
+  /*background: #21BA45 !important;*/
+}
+
+.ui.progress{
+  background: #f0eff4 !important
+}
+.inputfield{
+  margin: 0;
+max-width: 100%;
+-webkit-box-flex: 1;
+-webkit-flex: 1 0 auto;
+-ms-flex: 1 0 auto;
+flex: 1 0 auto;
+outline: 0;
+-webkit-tap-highlight-color: rgba(255,255,255,0);
+text-align: left;
+line-height: 1.2142em;
+font-family: Arial;
+padding: .67861429em 1em;
+background: #FFF;
+border: 1px solid rgba(34,36,38,.15);
+color: rgba(0,0,0,.87);
+border-radius: .28571429rem;
+-webkit-transition: box-shadow .1s ease,border-color .1s ease;
+transition: box-shadow .1s ease,border-color .1s ease;
+box-shadow: none;
+}
+.loginImage{
+  width: 100%;
+  margin-top: -2%;
+  height: 678px !important;
+  overflow: hidden !important;
+}
+.fbc-pink {
+    background-color: #F27AAA;
+}
+.fbc-elem {
+    height: 2px;
+}
+.footer-brand-colour {
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+.fbc-yellow {
+    background-color: #FAED23;
+}
+.fbc-blue {
+    background-color: #6FCCDD;
+}
+.noteForAdmin{
+  font-size: small;
+  color: red;
+}
+#leftCornerCircle{
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: #8DD7E4;
+  margin-left: -300px;
+  margin-bottom: -300px;
+  position: fixed;
+}
+#adaptCircle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #F595BA;
+  position: fixed;
+  margin-left: 300px;
+  z-index: -1;
+  margin-top: -29px;
+}
+#circleWithSentence{
+  float: center;
+}
+#adaptSentence{
+  z-index: 10;
+  /*position: absolute;*/
+}
+.donutchart-arcs-path{
+  opacity: 1 !important;
+}
+.ReactTable .-pagination .-pageSizeOptions {
+    display: none !important;
+}
+.clrBtnAdmin{
+  float: left;
+}
+.actionInRightPane{
+  float: right;
+  margin-right: 5% !important;
+}
+.rt-resizable-header-content{
+  font-weight: bold;
+}
+#CardsImage {
+  height: 200px;
+}
+#CardsCreditsPage>.image>img, #CardsCreditsPage>.card>.image>img {
+  height: 180px !important;
+    width: 110% !important;
+}
+.iFrameContent {
+  width: 100% !important;
+  height: 800px !important;
+}
+.tabContent{
+  margin-right: 3%;
+  margin-left: 3%;
+}

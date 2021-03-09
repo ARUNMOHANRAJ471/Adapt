@@ -1,6 +1,6 @@
 {
   "name": "Adapt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "mocha $(find server/test -name '*.js')",
     "wpbuild": "node ./node_modules/webpack/bin/webpack.js",
